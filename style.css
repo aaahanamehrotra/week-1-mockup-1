@@ -1,0 +1,140 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	font: Poppins;
+}
+
+body{
+	padding-bottom: 30px; 
+}
+.navbar{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding:39px 122px;
+}
+
+.navbar .navbar-title{
+	width: 129px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.navbar-title span{
+	color: #F66666;
+}
+
+.navbar-items{
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+.navbar-items .Register{
+	width: 57px;
+	height: 21px;
+	padding: 8px 20px; 
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: solid;
+	border-radius: 4px;
+	color: #F66666;
+}
+
+.navbar-items .Login{
+	width: 37px;
+	height: 21px;
+	padding: 8px 20px; 
+	text-decoration: none;
+	background-color: #F66666;
+	border: solid;
+	border-radius: 4px;
+	color: #FFFFFF;
+	border-color: #F66666;
+}
+
+.header{
+	background-color: #F66666;
+	height : 196px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 123px ;
+	display: block;
+}
+
+.header h1{
+	color: #FFFFFF;
+	height: 96px;
+	width: 463px;
+}
+
+.header input{
+	height: 54px;
+	width:365px;
+	border-radius: 12px;
+}
+.image_span{
+	width: 345px;
+	height: 188px;
+}
+
+.image_row{
+	padding:10px 130px;
+	justify-content: space-between;
+}
+
+.courses{
+	display: flex;
+	font-weight: bold;
+	padding: 10px 130px;
+	justify-content: space-between;
+}
+
+.course_name{
+	width: 345px;
+	text-align: center;
+	background-color: #FFFFFF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    height: 307px;
+    font-size: 20px;
+}
+
+.author_name{
+	width: 345px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 13px 0px;
+}
+
+.Subject{
+	padding:47px 122px;
+	font-weight: 700;
+	font-size: 24px;
+	height: 36px;
+	width: 174px;
+}
+
+.Name{
+	margin-top: 29px;
+}
+
+.expand{
+	color: #F66666;
+	text-align: right;
+	padding-right: 171px;
+	padding-top: 29px;
+	size: 16px;
+	font-weight: 400;
+}
+
+.expand a{
+	position: relative;
+	right: 0px;
+	color: #F66666;
+	text-align: right;
+	size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+}
